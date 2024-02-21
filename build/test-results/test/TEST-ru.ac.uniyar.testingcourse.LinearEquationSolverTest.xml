@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-02-14T12:51:20" hostname="PC210-25" time="0.274">
+  <properties/>
+  <testcase name="integerNumberTest()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.271"/>
+  <testcase name="realNumberTest()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.001"/>
+  <testcase name="negativeNumberTest()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
