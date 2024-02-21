@@ -28,15 +28,26 @@ public class LinearEquationSolverTest {
     }
 
     /**
-     * Проверка решения линейного уравнения в целых числах
-     * Дано: а = -18, б = 72
-     * Ожидаемый результат: -4
+     * Проверка решения линейного уравнения в положительных числах
+     * Дано: а = 18, б = 72
+     * Ожидаемый результат: 4
      */
     @Test
-    void integerNumberTest() {
+    void positiveNumberTest() {
         assertThat(LinearEquationSolver.solve(-18, 72))
                 .isNegative()
                 .isEqualTo(-4);
+    }
+
+    /**
+     * Проверка решения линейного уравнения в случае бесконечного числа решений
+     * Дано: а = 0, б = 0
+     * Ожидаемый результат: бесконечность
+     */
+    @Test
+    void infinityRootsTest() {
+        assertThat(LinearEquationSolver.solve(0, 0))
+                .isEqualTo(Double.POSITIVE_INFINITY);
     }
 
 }
