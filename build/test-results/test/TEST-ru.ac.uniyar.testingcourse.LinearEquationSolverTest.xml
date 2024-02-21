@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-02-14T12:51:20" hostname="PC210-25" time="0.274">
+<testsuite name="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-02-21T13:10:03" hostname="PC210-28" time="0.068">
   <properties/>
-  <testcase name="integerNumberTest()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.271"/>
-  <testcase name="realNumberTest()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.001"/>
-  <testcase name="negativeNumberTest()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.001"/>
+  <testcase name="realNumbersCaseWithInfinityRoot()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.057"/>
+  <testcase name="realNumberCaseWithIntegerRoot()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.001"/>
+  <testcase name="positiveNumbersCaseWithNegativeRoot()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.001"/>
+  <testcase name="noRootsCase()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.001"/>
+  <testcase name="infinityRootsCase()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.002"/>
+  <testcase name="integerNumbersCaseWithNegativeRoot()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.001"/>
+  <testcase name="realNumberCaseWithRealParams()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.001"/>
+  <testcase name="zeroRootCase()" classname="ru.ac.uniyar.testingcourse.LinearEquationSolverTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
